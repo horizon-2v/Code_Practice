@@ -92,3 +92,6 @@ git merge <target brach>
 ```
 git branch -d <branch name>
 ```
+## 10. 相关链接
+[git 基本教程](https://zhuanlan.zhihu.com/p/30044692)<br>
+[github Token设置](https://zhuanlan.zhihu.com/p/401978754)
