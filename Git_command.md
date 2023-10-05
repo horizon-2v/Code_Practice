@@ -92,6 +92,22 @@ git merge <target brach>
 ```
 git branch -d <branch name>
 ```
-## 10. 相关链接
-[git 基本教程](https://zhuanlan.zhihu.com/p/30044692)<br>
-[github Token设置](https://zhuanlan.zhihu.com/p/401978754)
+## 10. 其他
+-  git fetch 和git pull的区别:<br>
+   fetch是将远程仓库的代码拉到本地，但是不和本地的仓库合并，例如:
+   ```
+   git fetch origin master
+   ```
+   是将本地的`origin/master`这个分支更新了，但是`master`这个分支还是保持不变<br>
+   如果需要和本地仓库合并，还需要merge指令：
+   ```
+   git merge origin/master
+   ```
+   pull则直接一步将本地的仓库更新到和远程仓库一致
+   ```
+   git pull origin master
+   ```
+   相当于做了fetch和merge的操作，但因为合并前不检查，方便但可能会不安全
+-   相关链接：<br>
+   [git 基本教程](https://zhuanlan.zhihu.com/p/30044692)<br>
+   [github Token设置](https://zhuanlan.zhihu.com/p/401978754)

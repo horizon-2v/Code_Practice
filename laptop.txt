@@ -1,2 +1,0 @@
-git 初始化与基本操作： https://zhuanlan.zhihu.com/p/30044692
-GitHub token设置： https://zhuanlan.zhihu.com/p/401978754
