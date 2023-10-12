@@ -110,4 +110,5 @@ git branch -d <branch name>
    相当于做了fetch和merge的操作，但因为合并前不检查，方便但可能会不安全
 -   相关链接：<br>
    [git 基本教程](https://zhuanlan.zhihu.com/p/30044692)<br>
-   [github Token设置](https://zhuanlan.zhihu.com/p/401978754)
+   [github Token设置](https://zhuanlan.zhihu.com/p/401978754)<br>
+   [Token 过期的处理](https://blog.csdn.net/weixin_51696091/article/details/123960933)
